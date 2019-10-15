@@ -93,7 +93,7 @@ Webhook notifications are sent if a `callback_url` is supplied when creating a p
 You can use a payment's address `label`, made when creating a payment, to inspect its statuses:
 
 ```javascript
-let label = '7gEdCjTRZaGcW4Npj9GiWQhgFP9K3epk'
+let label = 'ADDRESS_LABEL_FROM_PAYMENT_CREATION'
 
 Coinpush.statuses(label).then((json) => {
     // Collect only the statuses from the object.
