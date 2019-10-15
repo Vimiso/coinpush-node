@@ -1,0 +1,26 @@
+{
+  "name": "coinpush",
+  "version": "1.0.0",
+  "description": "Integrate cryptocurrency payments into your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vimiso/coinpush.sdk.js.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "payments"
+  ],
+  "author": "Vimiso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vimiso/coinpush.sdk.js/issues"
+  },
+  "homepage": "https://github.com/Vimiso/coinpush.sdk.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
