@@ -1,6 +1,6 @@
 ## Description
 
-Enable cryptocurrency payments in your application or business.
+Enable cryptocurrency payments in your web applications or business.
 
 This NODE SDK interacts with the [Coinpush.io API](http://coinpush.test/docs/api) handling the creation and monitoring of cryptocurrency payments.
 
