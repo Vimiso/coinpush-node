@@ -58,6 +58,8 @@ Want to request the [Coinpush.io Testnet](https://coinpush.io/api/testnet)? Enab
 const Coinpush = new Client(new Config().useTestnet())
 ```
 
+IMPORTANT: Do not send real payments to any addresses created on the Testnet.
+
 ### Approach A
 
 This approach provides you with payment system endpoints on a "per-cryptocurrency" basis.
