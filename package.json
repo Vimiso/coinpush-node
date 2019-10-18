@@ -1,6 +1,6 @@
 {
   "name": "coinpush-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Integrate cryptocurrency payments into your application.",
   "main": "index.js",
   "scripts": {
