@@ -71,7 +71,7 @@ To create a new payment address, use the following method:
 ```javascript
 let currency = 'btc' // The cryptocurrency to charge in.
 
-Coinpush.create('btc', {
+Coinpush.create(currency, {
     amount: 20000, // Satoshis to charge (0.0002 * 100000000).
     output_address: 'YOUR_BTC_OUTPUT_ADDRESS',
     // callback_url: 'OPTIONAL_WEBHOOK_NOTIFICATION_URL'
